@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev:server": "cd apps/next && npm run dev",
-    "dev:client": "cd apps/expo && npm run dev"
+    "dev:client": "cd apps/expo && npm run start"
   },
   "workspaces": [
     "apps/*"
-  ]
+  ],
+  "packageManager": "yarn@4.5.3"
 }
